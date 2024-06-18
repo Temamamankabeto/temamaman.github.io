@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- title -->
+    <title>Adama STO</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/Adama municipal logo.jpg">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all-fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.timepicker.min.css">
+    <link rel="stylesheet" href="assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- preloader -->
+    <div class="preloader">
+        <div class="loader-repple">
+             
+        </div>
+    </div>
+   
+    <section id="sidebar">
+        <span id="typing-animation"></span>
+    
+        <script>
+          // Initialize the typing animation
+          const typingAnimationElement =
+            document.getElementById("typing-animation");
+    
+          // Create an array of typing text
+          const typingTexts = [
+            "we use this website for data presentation only. ",
+          ];
+    
+          // Create a function to display the typing animation for a given text
+          function playTypingAnimation(text) {
+            // Loop through each character and add it to the element
+            for (let i = 0; i < text.length; i++) {
+              setTimeout(() => {
+                typingAnimationElement.textContent += text[i];
+              }, i * 200); // Increase the delay to slow down the typing animation
+            }
+    
+            // Once the animation is complete, reset the text and start over
+            setTimeout(() => {
+              typingAnimationElement.textContent = "";
+              playTypingAnimation(
+                typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]
+              );
+            }, text.length * 200);
+          }
+    
+          // Start the typing animation loop
+          playTypingAnimation(typingTexts[0]);
+        </script>
+        <a href="#" class="brand">
+          <i class="bx bxs-smile"></i>
+          <span class="text">Offices</span>
+        </a>
+    
+        <ul class="side-menu top">
+          <ul class="user-profile-sidebar-list">
+            <li>
+              <a class="" href=" finance 1.html"
+                ><i class="far fa-gauge-high"></i> Finance Office</a
+              >
+            </li>
+            <li>
+              <a href=" LSSB 1.html"><i class="far fa-user"></i> LSSB</a>
+            </li>
+            <li>
+              <a href="WCAO.html"><i class="far fa-layer-group"></i> WCAO</a>
+            </li>
+            <li>
+              <a href="STO.html"><i class="far fa-xmark-circle"></i> STO</a>
+            </li>
+           
+             
+            <li>
+              <a href="supremecourt.html"
+                ><i class="far fa-credit-card"></i> Supreme court</a
+              >
+            </li>
+            <li>
+              <a href="education.html"
+                ><i class="far fa-credit-card"></i> Education Office</a
+              >
+            </li>
+            <!-- <li>
+              <a href="CooperativeOffice.html"
+                ><i class="far fa-credit-card"></i> Cooperative extension
+                office</a
+              >
+            </li> -->
+          </ul>
+        </ul>
+      </section>
+      <!-- SIDEBAR -->
+    <!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link"> </a>
+            <a href="#" class="profile">
+				<img src="assets/img/logo/Adama municipal logo.jpg" alt="logo">
+			</a>
+				<div class=" ">
+                    GATHERD AND RE ARRANGED DATA OF E_SERVICE FOR 5 OFFICES
+				</div>
+		 
+			 
+			<a href="#" class="profile">
+				<img src="assets/img/logo/Adama municipal logo.jpg" alt="logo">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+            <div>
+			<div class="head-title">
+				<div class="left">
+					<h1>Adama City women and hildren affairs office </h1>
+
+                    <h4>Has 3 Deppartments</h4>
+                        <li>1.  protection of children's rights and safety/eeggumsa mirgaa fi nageenya daa'immanii</li>
+                        <li> 2.  gender mainstreaming and capacity building of women’s institutions/idileessa koorniyaa fi ijaarsa dandeettii dhaabbilee dubartootaa</li>
+                        <li>3.  mobilization and economic development of women's organizations/sossochii fii guddina diinagdee gurmaa'insa dubartootaa</li>
+				</div>
+                <div class="site-heading mb-3">
+                    <span class="site-title-tagline justify-content-start"> </span>
+                    <h2 class="site-title my-3">Garee <span>eeggumsa mirgaa fi nageenya daa'immanii</span>  </h2>
+                    <h2 class="site-title my-3">protection of children's rights and safety <span> Group</span>  </h2>
+                </div>
+			</div>
+            <div>
+                <div>
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <span>1 . </i></span>komii/compliants
+                            <lable> compliants type <small class="text-danger" style="display: inline;">*</small></lable>
+                                        </div>
+                                        
+                                        <select required class="form-control address "  id="levelDropdown" name="level" value=''>
+                                        <option value="0" selected disabled>sellet compliants</option>
+                                        <option value="city">family dispute</option>
+                                         <option value="subcity"> by physical injury</option>
+                                        </select>
+                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <br>
+                    <div class="content-center">
+                    <h6 class="text-center">Service Explanation </h6>
+                    <p class="px-3">  this complaint focuses on family disputes , and  by physical injury
+                        once the complaint reaches us , if it is to be resolved by advice only it will be finalized mu here, 
+                        and if it is beyond force it will be referred to court</p>
+                    </div>
+                    <br>
+                    <div class="content-center">
+                    <h6 class="text-center">Service Cretaria in short </h6>
+                    <p class="px-3"> Appliation only</p>
+                    </div>
+
+                    <div class="accordion-body">
+              
+                        <h4>Application form</h4>
+                        <br>
+                             
+
+                        <form action= '/service1/application/store'  method="POST" enctype="multipart/form-data">
+                            <input type="hidden" name="_token" value=" ">   
+                        
+                         <div class="row">
+                          
+                                  
+                                               
+                                     
+                                <div class="row">
+                                                                            -->
+                                 <hr>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="mb-4">
+                                            <label for="business_license" class="form-label"> Applocation  <small
+                                                    class="text-danger" style="display: inline;">*</small></label>
+                                                    <input type="file"  accept=".pdf, .doc, .docx, .jpeg, .png, .jpg" id='business_license'value=""
+                                                        class="form-control " name="business_license">
+                                                 
+                                            <small class="text-danger d-flex mt-1 error-message" id="business_license-error"></small>
+                
+                                        </div>
+                                            </div>
+                                                                                 
+                                   </div>  
+                                    <!-- end required form -->                          
+                            </div>
+                            <input type="hidden" id="serviceId" name="service_id" value="1">
+                        
+                            <div class="d-flex gap-4 flex-wrap justify-content-end">
+                                <button type="submit" name="action" value="submit" id="submitButton"class="btn btn-primary">Ergaa</button>
+                                <button type="submit" name="action" value="draft" class="btn btn-secondary">
+                                    <span class="mdi mdi-content-save-all"></span> Akka wiixineetti qusadhaa
+                                    <span class="btn-spinner"></span>
+                                </button>
+                        
+                        
+                            </div>
+                        </form>
+                            </div>
+                        
+                            <hr>
+                            <h4 class="text-center">Office work</h4>
+                            <hr>
+                            <form action="#">
+                                <div class="row px-3 ">
+                                    <div class="col-lg-4 px-2">
+                                        <h4><i class="far fa-user"></i> officer role</h4>
+                                        <br>
+                                        <h5><i class="far fa-car-side-bolt"></i>step 1</h5>
+                                        <li> after examination by the expert, a summons is issued to the client. if there is a security threat, 
+                                            the law enforcement agencies will arrest and produce it
+                                            ogeessi erga ilaalee booda waraqaa waamichaa abbaa dhimmaatiif kennama.
+                                             yoo sodaan nageenyaa jiraate qaamni seeraa qabee akka dhiyeessu taasifama</li>
+                                         
+                                    </div>
+                                
+                                    <div class="col-lg-4">
+                                         <h4><i class="far fa-user"></i> Leader role</h4>
+                                         <br>
+                                         <li>---------</li>
+                                         
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h4><i class="far fa-key"></i> Point of payment</h4>
+                                        <br>
+                                       <i> no </li>
+                                       <li>Ammount = ____</li>
+                                        
+                                        
+                                   </div>
+                                    <br>
+                                    <br>
+                                  
+                                   
+                                </div>
+                                 <!-- norman or not workflow -->
+                                <div class="row">
+                                    <div class="col-6">
+        
+                                    </div>
+                                   
+                                    <div class="col-6">
+                                        <h4 class="heading-divider text-center"><i>loading</i></h4>
+                                        <h6 class="text-color-info">normal workflow</h6>
+                                    </div>
+                                      <!--end norman or not workflow -->
+        
+                                </div>
+                            </form>
+
+                </div>
+             </div>
+             <hr>
+			 <div>
+                <div>
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <span>2. </i></span>  economic hardship/rakkina dinagdee
+                        </button>
+                    </h2>
+                    </div>
+                    <div id="collapseOne" class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <br>
+                    <div class="content-center">
+                    <h6 class="text-center">Service Explanation </h6>
+                    <p class="px-3">   </p>
+                    </div>
+                    <br>
+                    <div class="content-center">
+                    <h6 class="text-center">Service Cretaria in short </h6>
+                    <p class="px-3">    application, district support certificate</p>
+                    </div>
+
+                    <div class="accordion-body">
+              
+                        <h4>Application form</h4>
+                        <br>
+                             
+
+                        <form action= '/service1/application/store'  method="POST" enctype="multipart/form-data">
+                            <input type="hidden" name="_token" value=" ">   
+                        
+                         <div class="row">
+                          
+                                  
+                                               
+                                     
+                                <div class="row">
+                                                                            -->
+                                 <hr>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="mb-4">
+                                            <label for="business_license" class="form-label"> application <small
+                                                    class="text-danger" style="display: inline;">*</small></label>
+                                                    <input type="file"  accept=".pdf, .doc, .docx, .jpeg, .png, .jpg" id='business_license'value=""
+                                                        class="form-control " name="business_license">
+                                                 
+                                            <small class="text-danger d-flex mt-1 error-message" id="business_license-error"></small>
+                
+                                        </div>
+                                            </div>
+                                        
+                                            <div class="col-md-6">
+                                                <div class="mb-4">
+                                                    <label for="business_license" class="form-label"> woreda support certificate <small
+                                                            class="text-danger" style="display: inline;">*</small></label>
+                                                            <input type="file"  accept=".pdf, .doc, .docx, .jpeg, .png, .jpg" id='business_license'value=""
+                                                                class="form-control " name="business_license">
+                                                         
+                                                    <small class="text-danger d-flex mt-1 error-message" id="business_license-error"></small>
+                        
+                                                </div>
+                                            </div>
+                                                                  
+                                         
+                                   </div>  
+
+                                    <!-- end required form -->                          
+                            </div>
+                            <input type="hidden" id="serviceId" name="service_id" value="1">
+                        
+                            <div class="d-flex gap-4 flex-wrap justify-content-end">
+                                <button type="submit" name="action" value="submit" id="submitButton"class="btn btn-primary">Ergaa</button>
+                                <button type="submit" name="action" value="draft" class="btn btn-secondary">
+                                    <span class="mdi mdi-content-save-all"></span> Akka wiixineetti qusadhaa
+                                    <span class="btn-spinner"></span>
+                                </button>
+                        
+                        
+                            </div>
+                        </form>
+                            </div>
+                        
+                            <hr>
+                            <h4 class="text-center">Office work</h4>
+                            <hr>
+                            <form action="#">
+                                <div class="row px-3 ">
+                                    <div class="col-lg-4 px-2">
+                                        <h4><i class="far fa-user"></i> officer role</h4>
+                                        <br>
+                                        <h5><i class="far fa-car-side-bolt"></i>step 1</h5>
+                                        <li> the officer will order them and if there is ne chance he will deliver for them ather wise they will registered and stored for the next</li>
+                                       
+                                    </div>
+                                
+                                    <div class="col-lg-4">
+                                         <h4><i class="far fa-user"></i> Leader role</h4>
+                                         <br>
+                                         
+                                         
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h4><i class="far fa-key"></i> Point of payment</h4>
+                                        <br>
+                                       <i>no </i>
+                                       <li>Ammount =  </li>
+                                        
+                                        
+                                   </div>
+                                    <br>
+                                    <br>
+                                  
+                                   
+                                </div>
+                                 <!-- norman or not workflow -->
+                                <div class="row">
+                                    <div class="col-6">
+        
+                                    </div>
+                                   
+                                    <div class="col-6">
+                                        <h4 class="heading-divider text-center"><i>loading</i></h4>
+                                        <h6 class="text-color-info">normal workflow</h6>
+                                    </div>
+                                      <!--end norman or not workflow -->
+        
+                                </div>
+                            </form>
+
+                </div>
+             </div>
+             <hr>
+              
+
+
+    <!-- scroll-top -->
+    <a href="#" id="scroll-top"><i class="far fa-arrow-up"></i></a>
+    <!-- scroll-top end -->
+
+
+    <!-- js -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/counter-up.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.timepicker.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
